@@ -1,5 +1,3 @@
-# MachineLearning
-
 # Bank Churn Prediction Project
 
 This project focuses on predicting customer churn in the banking sector using a dataset of customer attributes and behavior. It employs data preprocessing, traditional machine learning models, and deep learning techniques.
@@ -42,12 +40,13 @@ This project focuses on predicting customer churn in the banking sector using a 
    - **Purpose**: Applies deep learning models to predict churn.
    - **Techniques Used**:
      - Multi-Layer Perceptrons (MLP)
-     - Optimized hyperparameter settings.
+     - TabTransformer
+     - Optimized hyperparameter settings
      - Cross-validation for performance robustness.
    - **How to Run**:
      1. Install required libraries:
         ```bash
-        pip install pandas numpy tensorflow keras
+        pip install pandas numpy tensorflow keras torch torchvision
         ```
      2. Load the preprocessed data from the first notebook.
      3. Run the notebook to build, train, and evaluate the deep learning models.
@@ -79,10 +78,10 @@ This project focuses on predicting customer churn in the banking sector using a 
 - `tensorflow`
 - `keras`
 - `xgboost`
+- `torch` (PyTorch)
+- `torchvision`
 
 ---
 
 ## Results
 Each notebook provides detailed metrics and visualizations for performance comparison across different models. Key insights and best-performing models are highlighted.
-
----
