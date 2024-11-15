@@ -46,7 +46,7 @@ This project focuses on predicting customer churn in the banking sector using a 
    - **How to Run**:
      1. Install required libraries:
         ```bash
-        pip install pandas numpy tensorflow keras torch torchvision
+        pip install pandas numpy scikit-learn tensorflow keras torch torchvision
         ```
      2. Load the preprocessed data from the first notebook.
      3. Run the notebook to build, train, and evaluate the deep learning models.
