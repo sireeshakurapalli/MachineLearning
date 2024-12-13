@@ -1,7 +1,5 @@
 # Bank Churn Prediction Project
 
-# README
-
 ## Project Overview
 This project focuses on predicting credit card customer churn using advanced data preprocessing, feature selection, and a variety of machine learning and deep learning models. Customer churn prediction helps financial institutions identify customers who are likely to discontinue their services, enabling targeted retention strategies.
 
@@ -82,7 +80,9 @@ pip install ipython
 - Launch Jupyter Notebook or JupyterLab:
 ```bash
   jupyter notebook
+```
   or
+```bash
   jupyter lab
 ```
   
