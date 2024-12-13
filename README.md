@@ -60,6 +60,7 @@ This project focuses on predicting credit card customer churn using advanced dat
 - Python 3.x is recommended.
 
 ### Required Packages (Install via pip):
+```bash
 pip install pandas
 pip install numpy
 pip install matplotlib
