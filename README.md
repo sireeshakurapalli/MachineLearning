@@ -69,18 +69,22 @@ pip install scikit-learn
 pip install imbalanced-learn
 pip install torch
 pip install xgboost
+```
 
 ### Optional Packages (If not already installed):
+```bash
 pip install jupyter
 pip install ipython
-
+```
 
 ## Running the Notebooks:
 - Ensure BankChurners.csv is in the same directory as the notebooks.
 - Launch Jupyter Notebook or JupyterLab:
+```bash
   jupyter notebook
   or
   jupyter lab
+```
   
 - Open ML_BC_Visualization.ipynb and run all cells to visualize data and perform initial EDA.
 - Open ML_BC_DataPreprocessing.ipynb and run all cells to preprocess data and generate the balanced_train_data.csv, validation_data.csv, and test_data.csv.
